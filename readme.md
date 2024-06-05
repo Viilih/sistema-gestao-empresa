@@ -8,7 +8,7 @@ Este é um sistema de gerenciamento desenvolvido para adicionar funcionários e 
 - Adicionar, Atualizar, Excluir e Visualizar Times
 - Criação de cadastros
 - Login
-- Registro de informações de login em um arquivo de log em formato txt
+- Registro de informações de login e cadaastro em um arquivo de log em formato txt
 
 ## Tecnologias Utilizadas
 
