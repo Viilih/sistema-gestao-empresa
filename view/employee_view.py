@@ -101,7 +101,7 @@ class EmployeeView:
             tk.messagebox.showerror("Error", "Idade inválida, insira uma idade válida")
             return 
         if int(team_id) not in team_ids:
-             tk.messagebox.showerror("Error", "Um time com esse Id ainda nao foi criado")
+             tk.messagebox.showerror("Error", "Um time com esse Id ainda nao foi encontrado")
              return
            
         self.controller.add_employee(name, age, position, team_id)
@@ -193,7 +193,7 @@ class EmployeeView:
             return
 
         if int(team_id) not in team_ids:
-            messagebox.showerror("Error", "Um time com esse ID ainda não foi criado")
+            messagebox.showerror("Error", "Um time com esse ID ainda não foi encontrado")
             return
 
         self.controller.update_employee(employee_id, name, age, position, team_id)
