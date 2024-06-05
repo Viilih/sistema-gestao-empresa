@@ -28,6 +28,6 @@ class RegisterController:
     def log_register(self, username):
         try:
             with open("logs/user_log.txt", "a") as log_file:
-                log_file.write(f"{datetime.datetime.now()} - Usuario {username} foi criado\n")
+               log_file.write(f"{datetime.datetime.now().strftime('%d/%m/%y %H:%M:%S')} - Usuario {username} foi criado\n")
         except IOError as e:
             self.view.show_message(f"Falha ao escrever no log: {e}")
