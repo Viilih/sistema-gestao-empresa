@@ -1,0 +1,8 @@
+2024-06-04 23:34:04.625604 - teste foi criado
+2024-06-04 23:34:18.118085 - teste fez login
+2024-06-04 23:36:22.731630 - teste fez login
+2024-06-04 23:39:44.988090 - teste fez login
+2024-06-04 23:40:35.393336 - teste fez login
+2024-06-04 23:41:06.847316 - teste fez login
+2024-06-04 23:42:00.268029 - teste fez login
+2024-06-04 23:48:33.530633 - Usuário teste fez login
