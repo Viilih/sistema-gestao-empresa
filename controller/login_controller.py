@@ -21,6 +21,6 @@ class LoginController:
     def log_login(self, username):
         try:
             with open("logs/user_log.txt", "a") as log_file:
-                log_file.write(f"{datetime.datetime.now()} - Usuário {username} fez login\n")
+                log_file.write(f"{datetime.datetime.now()} - Usuario {username} fez login\n")
         except IOError as e:
             self.view.show_message(f"Falha ao escrever no log: {e}")
