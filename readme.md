@@ -22,7 +22,11 @@ Este é um sistema de gerenciamento desenvolvido para adicionar funcionários e 
 ```
 git clone https://github.com/Viilih/sistema-gestao-empresa.git
 ```
-2. Execute o comando:
+2. Entre no diretório do projeto:
+```
+cd ./sistema-gestao-empresa
+```
+3. Execute o comando:
 ```
 python main.py
 ```
